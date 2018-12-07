@@ -5,26 +5,24 @@ var csv = require('csv-parser');
 var fs = require('fs');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', (req, res, next) => {
   res.render('index', { title: 'Super csv table app!' });
 });
 
-router.get('/data', function(req, res) {
-    var exampleResult = [];
-    var dictionaryResult = [];
+router.get('/data', (req, res) => {
+    let exampleResult = [];
+    let dictionaryResult = [];
 
     fs.createReadStream('dictionary.csv')
         .pipe(csv())
-        .on('error', (error) => console.log('!!error', error))
-        .on('data', (data) => dictionaryResult.push(data))
+        .on('error', error => console.log('!!error', error))
+        .on('data', data => dictionaryResult.push(data))
         .on('end', () => {
             fs.createReadStream('example.csv')
                 .pipe(csv())
-                .on('error', (error) => console.log('!!error', error))
-                .on('data', (data) => exampleResult.push(data))
-                .on('end', () => {
-                    res.json({ example: exampleResult, dictionary: dictionaryResult });
-                });
+                .on('error', error => console.log('!!error', error))
+                .on('data', data => exampleResult.push(data))
+                .on('end', () => res.json({ example: exampleResult, dictionary: dictionaryResult }));
         });
 });
 

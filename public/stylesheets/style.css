@@ -30,3 +30,16 @@ table thead td {
     background-color: #4CAF50;
     color: white;
 }
+
+button {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
