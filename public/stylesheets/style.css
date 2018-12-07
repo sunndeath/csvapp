@@ -43,3 +43,8 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+img {
+    width: 100px;
+    height: auto;
+}

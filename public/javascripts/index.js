@@ -3,7 +3,6 @@ const renderTableBody = data => {
 
     const nodesArray = Array.prototype.slice.call(document.getElementsByClassName('js-id'));
     const currentIDs = nodesArray.map(i => i.innerText);
-
     const filteredData = data.filter(f => !currentIDs.includes(f.ID));
 
     filteredData.forEach(item => {
@@ -25,7 +24,7 @@ const renderTableBody = data => {
           <td>${item['Change date']}</td>
           <td>${item['Last travel']}</td>
           <td>${item['Name target']}</td>
-          <td>${item['Photo target']}</td>
+          <td><img src="${item['Photo target']}" /></td>
         `;
 
         tbodyContainer.prepend(row);

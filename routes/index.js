@@ -12,6 +12,7 @@ router.get('/', (req, res, next) => {
 router.get('/data', (req, res) => {
     let exampleResult = [];
     let dictionaryResult = [];
+    let firstHeader = null;
 
     fs.createReadStream('dictionary.csv')
         .pipe(csv())
@@ -21,8 +22,20 @@ router.get('/data', (req, res) => {
             fs.createReadStream('example.csv')
                 .pipe(csv())
                 .on('error', error => console.log('!!error', error))
+                .on('headers', (headers) => {
+                    firstHeader = headers[0];
+                })
                 .on('data', data => exampleResult.push(data))
-                .on('end', () => res.json({ example: exampleResult, dictionary: dictionaryResult }));
+                .on('end', () => {
+                    const hasData = exampleResult.length > 0;
+                    const isZero = firstHeader === '0';
+
+                    if (!hasData && !isZero) {
+                        exampleResult.push(firstHeader);
+                    }
+
+                    res.json({ example: exampleResult, dictionary: dictionaryResult })
+                })
         });
 });
 
