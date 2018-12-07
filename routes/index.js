@@ -6,7 +6,7 @@ var fs = require('fs');
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
-  res.render('index', { title: 'Super csv table app!' });
+  res.render('index', { title: 'csvapp' });
 });
 
 router.get('/data', (req, res) => {
