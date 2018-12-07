@@ -11,7 +11,7 @@ const renderTableBody = data => {
         row.innerHTML = `
           <td>${item['Фамилия']}</td>
           <td>${item.Added}</td>
-          <td class="js-id" data-id=${item.ID}>${item.ID}</td>
+          <td class="js-id">${item.ID}</td>
           <td>${item.Phone}</td>
           <td>${item.Gender}</td>
           <td>${item.Age}</td>
