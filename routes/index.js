@@ -19,7 +19,7 @@ router.get('/data', (req, res) => {
         .on('error', error => console.log('!!error', error))
         .on('data', data => dictionaryResult.push(data))
         .on('end', () => {
-            fs.createReadStream('example.csv')
+            fs.createReadStream('./labels.csv')
                 .pipe(csv())
                 .on('error', error => console.log('!!error', error))
                 .on('headers', (headers) => {

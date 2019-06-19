@@ -15,18 +15,14 @@ const renderTableBody = data => {
           <td>${item.Phone}</td>
           <td>${item.Gender}</td>
           <td>${item.Age}</td>
-          <td>${item['Home address']}</td>
-          <td>${item['Work address']}</td> 
           <td>${item.Income}</td>
           <td>${item['Current device model']}</td>
           <td>${item.Price }</td>
           <td>${item['Last device model']}</td>
           <td>${item['Change date']}</td>
-          <td>${item['Last travel']}</td>
           <td>${item['Name target']}</td>
           <td><img src="${item['Photo target']}" /></td>
         `;
-
         tbodyContainer.prepend(row);
     });
 };

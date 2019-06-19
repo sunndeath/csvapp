@@ -1,12 +1,17 @@
-Фамилия,Added,ID,Phone,Gender,Age,Home address,Work address,Income,Current device model,Price ,Last device model,Change date,Last travel,Name target,Photo target
-Кузнецов М.,да,1,79035963574,male,25-35,"Moscow, Paustovskogo street, 4с1","Moscow, Krasnoproletarskaya street, 4",high,Apple iPhone 8 (A1905),52415,Apple iPhone 5s (A1530),2017-12-01,,Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
-Железкин А.,да,2,79099701453,male,25-35,"Moscow region, Krasnogorsk, Pavshinskaya Poima, 4th microdistrict, residential complex Pribrezhniy","Moscow, Krasnoproletarskaya street, 4",high,Xiaomi Mi 6,30973,Samsung GT-I9505 (Galaxy S4),2017-06-01,"""Montenegro"": 2",Смартфон Xiaomi Mi A2 64GB Black,http://static.beeline.ru/shop/media/goods/fullsize/7894716d-3db5-4b8c-9d24-08b3a578127a.png
-Самохвалов В.,да,3,79672385071,male,25-35,"Moscow, Kantemirovskaya street, 14","Moscow, Krasnoproletarskaya street, 4",high,Apple iPhone SE (A1723),20000,,3 years more,,Смартфон Apple iPhone SE 32GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
-Исмаилова А.,да,4,79057295288,female,25-35,"Moscow, Sokolovo-Mescherskaya street, 40","Moscow, Krasnoproletarskaya street, 4",high,Apple iPhone 7 (A1778),41596,,3 years more,,Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
-Исайкин Д.,да,5,79688220719,male,25-35,"Moscow, Bibirevskaya street","Moscow, Krasnoproletarskaya street, 4",high,Xiaomi Redmi 4 Pro,16663,,3 years more,,Смартфон Xiaomi Mi A2 64GB Black,http://static.beeline.ru/shop/media/goods/fullsize/7894716d-3db5-4b8c-9d24-08b3a578127a.png
-Белова А.,да,6,79651032063,female,25-35,"Moscow, Krzhizhanovskogo street","Moscow, Krasnoproletarskaya street, 4",high,Apple iPhone X (A1901),76064,Apple iPhone 7 Plus (A1784),2018-10-01,"""Greece"": 3, ""Israel"": 1",Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
-Русов Д.,да,7,79652374348,male,25-35,"Moscow, Buday passage, 8","Moscow, Krasnoproletarskaya street, 4",high,Apple iPhone 7 (A1778),41596,Apple iPhone 5s (A1457),2017-05-01,"“Belarus”: 2, “Lithuania”: 1, “Greece”: 1",Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
-Новиков В.,да,8,79165112354,male,25-35,"Moscow, Chelobitevskoe highway, 10к3","Moscow, Krasnoproletarskaya street, 4",high,Apple iPhone X (A1901),76064,Apple iPhone 5s (A1533),06.2018,,Смартфон Samsung Galaxy J5 (2017) 16GB Black,http://static.beeline.ru/shop/media/goods/fullsize/932a9369-88c6-4778-9e77-a424ba88f6c3.png
-Трускавина Ю.,да,9,79264548295,female,25-35,"Moscow, Kedrova street, 15","Moscow, Krasnoproletarskaya street, 4",high,Apple iPhone 8 (A1863),52415,Apple iPhone 6 (A1586),2017-09-01,"""United Kingdom"": 2, ""Italy"": 2",Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
-not_identified,,10,,,,,,,,,,,,,
-not_identified,,11,,,,,,,,,,,,,
+Фамилия,Added,ID,Phone,Gender,Age,Income,Current device model,Price,Last device model,Change date,Name target,Photo target
+Иванов М.,да,1,79992221234,male,25-35,high,Apple iPhone 8 (A1905),52415,Apple iPhone 5s (A1530),2017-12-01,Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
+"Алексеев А.
+
+
+
+
+",да,2,79992221234,male,25-35,high,Xiaomi Mi 6,30973,Samsung GT-I9505 (Galaxy S4),2017-06-01,Смартфон Xiaomi Mi A2 64GB Black,http://static.beeline.ru/shop/media/goods/fullsize/7894716d-3db5-4b8c-9d24-08b3a578127a.png
+Овечкин В.,да,3,79992221234,male,25-35,high,Apple iPhone SE (A1723),20000,,3 years more,Смартфон Apple iPhone SE 32GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
+Лавочкин А.,да,4,79992221234,female,25-35,high,Apple iPhone 7 (A1778),41596,,3 years more,Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
+Печкин Д.,да,5,7979992221234,male,25-35,high,Xiaomi Redmi 4 Pro,16663,,3 years more,Смартфон Xiaomi Mi A2 64GB Black,http://static.beeline.ru/shop/media/goods/fullsize/7894716d-3db5-4b8c-9d24-08b3a578127a.png
+Токтунов А.,да,6,79679992221234,female,25-35,high,Apple iPhone X (A1901),76064,Apple iPhone 7 Plus (A1784),2018-10-01,Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
+Шербин Д.,да,7,79992221234,male,25-35,high,Apple iPhone 7 (A1778),41596,Apple iPhone 5s (A1457),2017-05-01,Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
+Лопаткин В.,да,8,79992221234,male,25-35,high,Apple iPhone X (A1901),76064,Apple iPhone 5s (A1533),06.2018,Смартфон Samsung Galaxy J5 (2017) 16GB Black,http://static.beeline.ru/shop/media/goods/fullsize/932a9369-88c6-4778-9e77-a424ba88f6c3.png
+Обезьянкин Ю.,да,9,79992221234,female,25-35,high,Apple iPhone 8 (A1863),52415,Apple iPhone 6 (A1586),2017-09-01,Смартфон Apple iPhone X 64GB «Серый космос»,http://static.beeline.ru/shop/media/goods/fullsize/53c3078b-95df-4306-9104-1c46e0461184.png
+not_identified,,10,,,,,,,,,,
+not_identified,,11,,,,,,,,,,
